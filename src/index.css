@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Outfit;
+}
+
+.greet-msg{
+    background: -webkit-linear-gradient(16deg, #5381ed, #b36da8, #d96671);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+    font-weight: 500;
+}
+::-webkit-scrollbar{
+    display: none;
+}
